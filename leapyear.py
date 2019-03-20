@@ -1,0 +1,10 @@
+try:
+    n=input()
+    if(int(n)%400==0):
+        print("yes")
+    elif(int(n)%4==0):
+        print("yes")
+    else:
+        print("no")
+except:
+    print("no")
