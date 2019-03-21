@@ -11,8 +11,9 @@ def isprime(n,m):
     return(l)
 try:
     n=input().split(" ")
-    l=isprime(int(n[0]),int(n[1]))
-    for m in l:
-        print(m,end=" ")
+    if(int(n[0])<=1000 and int(n[1])<1000):
+        l=isprime(int(n[0]),int(n[1]))
+        for m in l:
+            print(m,end=" ")
 except:
     print("")
