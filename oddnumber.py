@@ -13,7 +13,6 @@ try:
     n=input().split(" ")
     if(int(n[0])<=1000 and int(n[1])<1000):
         l=isprime(int(n[0]),int(n[1]))
-        for m in l:
-            print(m,end=" ")
+        print(" ".join(str(x) for x in l))
 except:
     print("")
