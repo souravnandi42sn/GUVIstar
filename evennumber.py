@@ -3,7 +3,7 @@ Created on 20-Mar-2019
 
 @author: sourav nandi
 '''
-def isprime(n,m):
+def iseven(n,m):
     l=[]
     for i in range(n+1,m):
         if(i%2==0):
